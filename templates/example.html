@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Flask Google Maps Example</title>
+            {{clickmap.js}}
+
+    </head>
+    <body>
+
+        <h2>LatLon from click to flask and back:</h2>
+
+        {{clickmap.html}}
+        <script type="text/javascript">
+
+            clickmap =  new google.maps.Map(document.getElementById("clickmap"));
+
+            function placeMarker(location) {
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: clickmap
+                });
+            }
+            google.maps.event.addListener(clickmap, 'click', function(event) {
+                console.log("placing marker")
+                placeMarker(event.latLng);
+            });
+         </script>
+    </body>
+</html>
