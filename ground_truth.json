@@ -1,0 +1,52 @@
+{
+    "pos0": {
+        "place": "Paris",
+        "lat": 48.8599931,
+        "lng": 2.2917696
+    },
+    "pos1": {
+        "Place": "Bundesrat",
+        "lat": 46.9474564,
+        "lng": 7.4437518
+    },
+    "pos2": {
+        "Place": "EuropaPark",
+        "lat": 48.266693,
+        "lng": 7.7212963
+    },
+    "pos3": {
+        "Place": "Sandwich",
+        "lat": -54.2963905,
+        "lng": -36.3119431
+    },
+    "pos4": {
+        "Place": "Batman",
+        "lat": 38.1342073,
+        "lng": 41.2283732
+    },
+    "pos5": {
+        "Place": "Kilimandjaro",
+        "lat": -3.0757074,
+        "lng": 37.3517921
+    },
+    "pos6": {
+        "Place": "Joplin",
+        "lat": 37.8457695,
+        "lng": -94.3377478
+    },
+    "pos7": {
+        "Place": "Ghana",
+        "lat": 5.6868568,
+        "lng": -0.2459673
+    },
+    "pos8": {
+        "Place": "Dacca",
+        "lat": 23.724981,
+        "lng": 90.4121474
+    },
+    "pos9": {
+        "Place": "Rome",
+        "lat": 41.895495,
+        "lng": 12.4773
+    }
+}

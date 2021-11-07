@@ -1,3 +1,6 @@
 flask
+flask-cors
+geopy
+jupyter
 flask_googlemaps==0.4.0
 dynaconf
