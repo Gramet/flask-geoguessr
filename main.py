@@ -1,6 +1,7 @@
 # coding: utf-8
 import json
 import os
+from dotenv import load_dotenv
 from datetime import datetime
 from flask import Flask, render_template, request
 from flask_cors import CORS
@@ -13,10 +14,11 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 CORS(app)
 
+load_dotenv()
 # you can also pass key here
 GoogleMaps(
     app,
-    key="AIzaSyB8SShskJPl4V0fJWkpqgeP7d5AGHvQyJg"
+    key=os.getenv("GOOGLE_MAPS_API_KEY"),
 )
 
 marker_dict = {
