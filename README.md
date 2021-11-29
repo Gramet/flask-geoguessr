@@ -10,9 +10,9 @@ Results can then be visualized on `localhost:5000`.
 
 1. Create and activate a virtual environment: `python -m venv env` and `source /env/bin/activate`
 2. Install the python requirements in a virtualenv with pip: `pip install -r requirements.txt`
-2. Install the javascript webapp with npm: `cd js-samples & npm i`
+2. Install the javascript webapp with npm: `cd js-samples/ & npm i`
 3. Add your Google maps Javascript api key to the `.env` as well as your IP on the network.
-4. Copy the `.env` file inside js-samples: `cp .env js.samples`
+4. Copy the `.env` file inside js-samples: `cp .env js.samples/`
 5. All set!
 
 ## Running the game
