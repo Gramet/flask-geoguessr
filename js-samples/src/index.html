@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pub Quiz round 5</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h2 style="text-align:center"> Team Name:</h2>
+      <div style="text-align:center">
+        <input type="text" id="name" name="name" required size="10" placeholder="Team Name">
+      </div>
+      <h2>Question 1:</h2>
+      <div id="map0" style="width:700px; height:500px; margin-left:80px;"></div>
+
+      <h2>Question 2:</h2>
+      <div id="map1" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 3:</h2>
+      <div id="map2" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 4:</h2>
+      <div id="map3" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 5:</h2>
+      <div id="map4" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 6:</h2>
+      <div id="map5" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 7:</h2>
+      <div id="map6" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 8:</h2>
+      <div id="map7" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 9:</h2>
+      <div id="map8" style="width:700px; height:500px; margin-left:80px;"></div>
+      <h2>Question 10:</h2>
+      <div id="map9" style="width:700px; height:500px; margin-left:80px;"></div><!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+      async
+      ></script>
+      <br>
+      <div style="text-align:center">
+        <input type="submit" onclick="submit()"></input>
+      </div>
+      <br>
+      </div>
+  </body>
+</html>
