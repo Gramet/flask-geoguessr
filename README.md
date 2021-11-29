@@ -1,8 +1,7 @@
-# Where is Waldo
+# Flask Geoguessr
+This repo implements a small Typescript webapp based on GoogleMaps Javascript API as well as a Flask backend with Flask_googlemaps for displaying results, for a GeoGuessr-like game.
 
-This repo implements a small Typescript webapp based on GoogleMaps Javascript API as well as a Flask backend with Flask_googlemaps for displaying results, for a "where is Waldo" game.
-
-During the game, we showed pictures of Waldo in Google Streetview to the audience. They had to pinpoint on the map (hosted in the webapp) where the picture was taken. Answers are gathered in the `answers` folder and scores are computed with the `compute_scores.py` script.
+During the game, we showed 10 pictures of Google Streetview to the audience. They had to pinpoint on the map (hosted in the webapp) where the picture was taken. Answers are gathered in the `answers` folder and scores are computed with the `compute_scores.py` script.
 
 Results can then be visualized on `localhost:5000`.
 
@@ -13,7 +12,8 @@ Results can then be visualized on `localhost:5000`.
 2. Install the javascript webapp with npm: `cd js-samples/ & npm i`
 3. Add your Google maps Javascript api key to the `.env` as well as your IP on the network.
 4. Copy the `.env` file inside js-samples: `cp .env js.samples/`
-5. All set!
+5. Prepare your `ground_truth.json`: Get images from streetview as well as the coordinates (they can be found in the url)
+6. All set!
 
 ## Running the game
 
